@@ -1,12 +1,21 @@
 <x-layout>
 
-  <div class="row">
-    <div class="col-12 p-0">
-      <img src="{{ asset( 'storage/banner-oitc3-Small.png' ) }}"
-          class="w-100 object-fit-cover m-0 p-0"
-          alt="OITC3 Banner.">
+ <div class="row g-0 align-items-center bg-dark-blue"> 
+    <div class="col-2 d-flex flex-column align-items-end">
+      <img src="{{ asset('storage/training.png') }}" class="stacked-image" alt="Training">
+      <img src="{{ asset('storage/teaching.png') }}" class="stacked-image" alt="Teaching">
+      <img src="{{ asset('storage/research.png') }}" class="stacked-image" alt="Research">
     </div>
-  </div>
+
+    <div class="col-8 banner-container p-0">
+      <img src="{{ asset('storage/banner-oitc3-Small.png') }}" 
+           class="hero-banner" 
+           alt="OITC3 Banner">
+    </div>
+    <div class="col-2">
+
+    </div>
+</div>
 
   <nav class="navbar navbar-expand-lg bg-body-secondary">
     <div class="container-fluid">
@@ -20,7 +29,7 @@
             <span class="nav-link fw-bold" aria-current="page">On this page:</span>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="oit-degrees">Cybersecurity Degrees at OIT</a>
+            <a class="nav-link active" aria-current="page" href="#ot-degrees">Cybersecurity Degrees at OREGON TECH</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#student-stories">Student Stories</a>
@@ -40,20 +49,24 @@
   <!-- Sidebar: Navigation Cards -->
   <div class="col-12 col-md-4 d-flex flex-column align-items-end">
     <div class="card shadow-sm w-50">
-      <div class="card-header fw-bold">OIT Resources</div>
+      <div class="card-header fw-bold">OREGON TECH Resources</div>
       <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action clinic-nav-item fw-bold">Cybersecurity Degree Options</a>
-        <a href="#" class="list-group-item list-group-item-action clinic-nav-item fw-bold">Scholarships</a>
-        <a href="#" class="list-group-item list-group-item-action clinic-nav-item fw-bold">Financial Aid</a>
-        <a href="#" class="list-group-item list-group-item-action clinic-nav-item fw-bold">Clubs & Campus Resources</a>
-        <a href="#" class="list-group-item list-group-item-action clinic-nav-item fw-bold">OITC3 Members</a>
+        <a href="https://www.oit.edu/academics/degrees/cybersecurity" class="list-group-item list-group-item-action clinic-nav-item fw-bold">Cybersecurity Degree Options</a>
+        <a href="https://www.oit.edu/college-costs/scholarships" class="list-group-item list-group-item-action clinic-nav-item fw-bold">Scholarships</a>
+        <a href="https://www.oit.edu/campus-life/student-organizations" class="list-group-item list-group-item-action clinic-nav-item fw-bold">Clubs & Campus Resources</a>
+        <a href="#" class="list-group-item list-group-item-action clinic-nav-item fw-bold">OTC3 Members</a>
+        <a href="mailto:cybersecurityclinic@oit.edu" class="list-group-item list-group-item-action border border-2 border-warning fw-bold">
+          <p class="m-0">Need Help? / Interested?</p>
+          <p class="m-0">Contact Us!</p>  
+          <p class="m-0">cybersecurityclinic@oit.edu</p>
+          </a>
       </div>
     </div> <!-- Closes Card -->
   </div> <!-- Closes Column -->
 
   <!-- Main Content: Welcome Section -->
   <div class="col-12 col-md-8">
-    <h2 class="mb-3">Welcome to the OIT Cybersecurity Community Clinic!</h2>
+    <h2 class="mb-3">Welcome to the OREGON TECH Cybersecurity Community Clinic!</h2>
     <div class="row align-items-start">
       <div class="col-lg-6">
         <p class="lead">This is a place for current and prospective students to learn about Cybersecurity while protecting the businesses and citizens of our community.</p>
@@ -67,12 +80,12 @@
              alt="OITC3 Students working in the lab">
       </div>
     </div>
-  </div> <!-- Closes Main Column -->
-</div> <!-- Closes Main Row -->
+  </div> 
+</div> 
 
-  <div class="row mb-2 gy-0 d-flex justify-content-center" id="oit-degrees">
+  <div class="row mb-2 gy-0 d-flex justify-content-center" id="ot-degrees">
     <div class="col-12 col-md-8 mb-1">
-      <h3 class="d-flex justify-content-center">Cybersecurity Degrees at OIT</h3>
+      <h3 class="d-flex justify-content-center">Cybersecurity Degrees at OREGON TECH</h3>
       <article class="d-flex justify-content-center">
         Why do we use it?
         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
@@ -81,9 +94,9 @@
   </div>
   <div class="row mb-2 d-flex justify-content-center" id="student-stories">
     <div class="col-12 col-md-8 pb-3">
-      <h3 class="d-flex justify-content-center">Student Life at OIT</h3>
+      <h3 class="d-flex justify-content-center">Student Life at OREGON TECH</h3>
       <article class="d-flex justify-content-center">
-          Student stories and experiences at OIT.
+          Student stories and experiences at OREGON TECH.
           The standard Lorem Ipsum passage, used since the 1500s
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
       </article>

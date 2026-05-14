@@ -5,6 +5,30 @@
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+/* Container for the row background (matches your image blue) */
+.bg-dark-blue {
+    background-color: #002244;
+    overflow: hidden; /* Keeps everything tidy */
+}
+
+.banner-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns banner to the left, touching the icons */
+    height: 65vh;
+}
+
+.hero-banner {
+    height: 100%;     /* Fills the 50vh container */
+    width: 100%;      /* Spans the full col-9 */
+    object-fit: cover; /* Prevents squishing */
+}
+
+.stacked-image {
+    width: 175px;     /* Slightly smaller to fit better in col-3 */
+    height: auto;     /* Maintains aspect ratio */
+    margin: 5px 0;   /* Adds a little space between them */
+}
+
 .clinic-nav-item {
     border-left: 3px solid rgb(0, 55, 103) !important;
     border-radius: 0 !important; /* Keeps the corners sharp for a cleaner look */

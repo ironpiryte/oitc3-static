@@ -9,13 +9,12 @@
 
     <link rel="icon" type="image/x-icon" href="{{ asset( 'favicon.ico' ) }}" />
 
-    <title>{{ isset( $title ) ? $title : 'OITC3 Demo' }}</title>
+    <title>{{ isset( $title ) ? $title : 'OTC3 Demo' }}</title>
 
     <!-- Style Sheets  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" referrerpolicy="no-referrer"></script>
-
+    
     <!-- Fonts -->
 
     <!-- Scripts -->

@@ -17,6 +17,7 @@
         "@popperjs/core": "^2.11.8",
         "axios": "^1.16.1",
         "bootstrap": "^5.3.8",
+        "jquery": "^4.0.0",
         "laravel-echo": "^2.3.4",
         "pusher-js": "^8.5.0"
     }
