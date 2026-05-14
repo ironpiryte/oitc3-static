@@ -25,6 +25,8 @@ open your .env file and look for approximately line 23,verify DB_CONNECTION=mysq
 ensure that line 27, DB_USERNAME=root
 and then on line 28, DB_PASSWORD=<add the mysql root password here>(it may need double quotes if there are any symbols in the password)
 
+if there are any problems with the .env file, you delete all the contents of the .env file and then copy the contents of the .env.example file into the .env file
+
 Using the VS Code terminal, in the project root folder, enter the following commands:
 npm install
 npm run build
