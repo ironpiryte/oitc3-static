@@ -1,0 +1,18 @@
+@import 'bootstrap/scss/bootstrap';
+
+:root {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.clinic-nav-item {
+    border-left: 3px solid rgb(0, 55, 103) !important;
+    border-radius: 0 !important; /* Keeps the corners sharp for a cleaner look */
+    margin-bottom: 2px; /* Adds a tiny gap between items if desired */
+    transition: all 0.2s ease;
+}
+
+.clinic-nav-item:hover {
+    background-color: rgba(0, 55, 103, 0.05); /* Faint blue tint on hover */
+    padding-left: 1.25rem; /* Subtle "nudge" effect when hovering */
+}
