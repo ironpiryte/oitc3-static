@@ -1,3 +1,42 @@
+Laravel set up instructions:
+https://laravel.com/docs/13.x/installation
+
+You need PHP, Composer, Laravel installer, Node and NPM, and MySQL 
+
+The following command will install PHP, Composer, and Laravel installer
+Assuming Windows Powershell:
+# Run as administrator...
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
+
+Get Node and NPM from:
+https://nodejs.org/en
+
+Get MySQL from (download mysql-installer-web-community-8.0.46.0.msi, 2.1M, top option):
+https://dev.mysql.com/downloads/installer/
+
+When you set up MySQL, it should ask you to create a root user password. remember this password. 
+
+The GitHub repository to the local folder of your choice. I have one called `Laravel-Projects`
+
+cd into the repository folder - oitc3-static
+open folder in IDE of your choice, I use PHPStorm, or VS Code.
+
+open your .env file and look for approximately line 23,verify DB_CONNECTION=mysql
+ensure that line 27, DB_USERNAME=root
+and then on line 28, DB_PASSWORD=<add the mysql root password here>(it may need double quotes if there are any symbols in the password)
+
+Using the VS Code terminal, in the project root folder, enter the following commands:
+npm install
+npm run build
+php artisan migrate
+composer run dev
+
+This will host the website on: 
+http://localhost:8000
+
+If you have any issues with this working for you, look into using Laravel Herd as a web server / php server / mysql server
+Any questions, I can go over this with you in person. 
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
